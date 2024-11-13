@@ -56,15 +56,15 @@ return a**b;
 
 const factorial = function(a) {
 let total=1;
-  if(a===0) return 1;
-  while(a){
+
+  while(a>0){
   total=total*a;
   a--;
   }
   return total;
 };
 
-// Do not edit below this line
+// npm test calculator.spec.js
 module.exports = {
   add,
   subtract,
